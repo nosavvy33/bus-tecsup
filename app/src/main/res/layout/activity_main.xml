@@ -7,6 +7,7 @@
     android:orientation="vertical"
     tools:context="com.tecsup.nosavvy.busestecsup.MainActivity">
 
+
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -35,6 +36,26 @@
                 android:id="@+id/productID" />
         </TableRow>
 
+    </TableLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pasantias"
+        android:layout_gravity="center_horizontal">
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/row_header"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Pasantías"
+                    />
+
+        </TableRow>
     </TableLayout>
 
 </LinearLayout>
